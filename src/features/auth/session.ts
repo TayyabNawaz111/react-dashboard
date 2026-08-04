@@ -69,7 +69,7 @@ export const createDemoSession = async ({
     user: {
       id: 'demo-user',
       login,
-      name: 'Administrator',
+      name: 'Tayyab',
     },
     expiresAt: new Date(Date.now() + SESSION_TTL_MS).toISOString(),
   };
