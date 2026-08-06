@@ -65,7 +65,7 @@ export const createDemoSession = async ({
   }
 
   const session: Session = {
-    token: crypto.randomUUID(),
+    token: "100",
     user: {
       id: 'demo-user',
       login,
